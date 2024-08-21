@@ -1,0 +1,215 @@
+(footprint "MICRO_USB_B"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(locked yes)
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.8412 5.4734 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "34458044-7e0e-4c13-aebd-695d0076aa88")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" ""
+		(at 0.7 -2.8 -90)
+		(layer "F.Fab")
+		(uuid "d981513e-7ee3-4aa7-89f9-ef3a76e7103e")
+		(effects
+			(font
+				(size 0.6 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8ff1f25-ac71-49c3-b71f-d3d4f175e3e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbdc5b71-81a2-4f48-a230-c3bf844136ea")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be3c6eff-18c7-42b4-af9e-cb8b662ac75e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -2.425 -4)
+		(end -2.425 4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "af132e63-8c2e-4fec-ae4c-07b4047a832e")
+	)
+	(fp_line
+		(start -1.6 -4)
+		(end -2.425 -4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7d38e978-e15a-48b7-b563-b635c4e34548")
+	)
+	(fp_line
+		(start -1.6 4)
+		(end -2.425 4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1ea174a0-89d9-45e6-81dc-cc7f5d47095f")
+	)
+	(fp_line
+		(start -2.5 -4.5)
+		(end -2.5 4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "433d513b-2925-4886-b687-3d061c0184dd")
+	)
+	(fp_line
+		(start 3 -4.5)
+		(end -2.5 -4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "a0c8ac6d-0dad-48b8-8c48-644ac2557abd")
+	)
+	(fp_line
+		(start 3 -4.5)
+		(end 3 4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "2908b674-114f-4e5b-8cc4-ec58abffb69f")
+	)
+	(fp_line
+		(start 3 4.5)
+		(end -2.5 4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "0d49fd79-c0bd-4653-bd95-f28fe8d2ceb4")
+	)
+	(pad "1" smd rect
+		(at 2.25 -1.3)
+		(size 1.35 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "45925b1d-2728-4266-afc3-58366b37a83a")
+	)
+	(pad "2" smd rect
+		(at 2.25 -0.65)
+		(size 1.35 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8eb7f50e-31ad-4e9d-8bb7-203866cc7984")
+	)
+	(pad "3" smd rect
+		(at 2.25 0)
+		(size 1.35 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "51ba1e3e-5879-4efa-b52a-846b4c5c6146")
+	)
+	(pad "4" smd rect
+		(at 2.25 0.65)
+		(size 1.35 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b8bba78e-94e0-49c7-a7fe-737d563a3615")
+	)
+	(pad "5" smd rect
+		(at 2.25 1.3)
+		(size 1.35 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ed24c411-abd7-49bd-99cf-d837fa87ab93")
+	)
+	(pad "SHELL" smd rect
+		(at -0.425 -3.8)
+		(size 1.8 1.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a98d119c-0fa6-4e59-9473-358b4c88121c")
+	)
+	(pad "SHELL" smd rect
+		(at -0.425 -1.2)
+		(size 1.8 1.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ddd184ad-62e4-4054-9b3e-d641ffe5c11e")
+	)
+	(pad "SHELL" smd rect
+		(at -0.425 1.2)
+		(size 1.8 1.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5488373d-6f38-4811-8ada-a0981da91848")
+	)
+	(pad "SHELL" smd rect
+		(at -0.425 3.8)
+		(size 1.8 1.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "936ec982-cd6a-49cd-a86a-0b3b55594da8")
+	)
+	(pad "SHELL" smd rect
+		(at 2.125 -3.1)
+		(size 1.6 2.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0c6cca79-b319-4fba-90e0-1399c1c92ed8")
+	)
+	(pad "SHELL" smd rect
+		(at 2.125 3.1)
+		(size 1.6 2.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8525b0a9-b07c-4189-9b97-37030ad220ff")
+	)
+	(model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/473460001.stp"
+		(offset
+			(xyz -0.25008 -0.00991 1.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)
