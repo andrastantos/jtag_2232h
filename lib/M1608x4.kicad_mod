@@ -16,7 +16,7 @@
 			(justify left bottom)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "Val**"
 		(at 1.5 -0.19999 180)
 		(layer "F.Fab")
 		(uuid "bd198a5e-f5ea-44b9-bc54-773fecd8d78e")
@@ -171,5 +171,16 @@
 		(size 0.6 1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "3104d3d5-d952-44f8-88e9-c41f5eb5b290")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_Array_Concave_4x0603.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
 	)
 )

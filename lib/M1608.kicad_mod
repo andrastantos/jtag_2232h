@@ -16,7 +16,7 @@
 			(justify left bottom)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "Val**"
 		(at 0.7 -0.3 180)
 		(layer "F.Fab")
 		(uuid "52752089-e10e-4f5b-ba1a-12ea8c7c2798")
@@ -175,5 +175,16 @@
 		(size 1.1 1.25)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "ec47969c-ad7d-455e-85bb-2f851fb8cdd2")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )

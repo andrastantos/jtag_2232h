@@ -16,7 +16,7 @@
 			(justify left bottom)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "Val**"
 		(at 1.9 -0.3 180)
 		(layer "F.Fab")
 		(uuid "e84be33b-135a-4d09-975c-717a8990d97d")
@@ -83,17 +83,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "707bc2e6-c812-4a21-a812-9dfdcb14a2d3")
-	)
-	(fp_circle
-		(center -0.85 -1.375)
-		(end -0.975 -1.375)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "9d54252b-d49e-41a5-8410-f93a07a3b855")
 	)
 	(fp_line
 		(start -1.675 1.35)
@@ -212,5 +201,16 @@
 		(size 0.4 1.2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "eca2cc22-4e5c-4c23-9f8e-45e6d1253fe4")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-323_SC-70.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )

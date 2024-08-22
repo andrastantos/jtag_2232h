@@ -2,7 +2,6 @@
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
-	(locked yes)
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 6.9502 7.9884 180)
@@ -17,7 +16,7 @@
 			(justify left bottom)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "Val**"
 		(at 1.1 -0.4 180)
 		(layer "F.Fab")
 		(uuid "e1e26c36-ad40-41d5-9d4e-491a24913c70")
@@ -621,5 +620,16 @@
 		(size 0.3 1.95)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "db9133c7-d9c9-465c-ada4-61c08ba80514")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_QFP.3dshapes/TQFP-64_10x10mm_P0.5mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )

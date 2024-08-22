@@ -16,7 +16,7 @@
 			(justify left bottom)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "Val**"
 		(at -1.05 -5 90)
 		(layer "B.Fab")
 		(hide yes)
@@ -71,8 +71,7 @@
 	(pad "1" smd circle
 		(at 0 0 180)
 		(size 1 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_paste_margin -2)
+		(layers "F.Cu" "F.Mask")
 		(thermal_bridge_angle 90)
 		(uuid "c4a794c7-7f5b-4e55-8fd8-8eae49bb9f83")
 	)

@@ -16,7 +16,7 @@
 			(justify left bottom)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "Val**"
 		(at 2.4 -0.2 180)
 		(layer "F.Fab")
 		(uuid "242126cb-8a70-4734-b426-1c5879307877")
@@ -65,8 +65,18 @@
 		)
 	)
 	(fp_line
+		(start -1.7 -0.9)
+		(end -1.1 -1.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "74967e05-92fa-4c64-aa69-96738d70b0ad")
+	)
+	(fp_line
 		(start -1.7 1.5)
-		(end -1.7 -1.5)
+		(end -1.7 -0.9)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -76,7 +86,7 @@
 	)
 	(fp_line
 		(start 1.7 -1.5)
-		(end -1.7 -1.5)
+		(end -1.1 -1.5)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -103,17 +113,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "3659d6db-b260-4a00-bfd9-bc4705c3dcc3")
-	)
-	(fp_circle
-		(center -2.875 -1.7)
-		(end -3 -1.7)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "81b08b9a-6e2b-4014-b719-e1705075291f")
 	)
 	(fp_circle
 		(center -0.7 -0.5)
@@ -284,5 +283,16 @@
 		(size 0.35 1.55)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "49234b27-420e-40f8-a900-149eaf565300")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-8_3x3mm_P0.65mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )

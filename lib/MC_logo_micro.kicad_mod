@@ -1,0 +1,236 @@
+(footprint "MC_logo_micro"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0.18743 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8d122e97-4689-42d8-9f91-5bdd7022713e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MC_logo_micro"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e29014d2-d437-4452-8b96-aa12c1b82a55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0.68743 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e27804e7-d000-4946-8286-977f9a2a90e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0.68743 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "06658819-e199-40b8-8646-265bd5872f62")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0.68743 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5965efe3-3725-4ed8-bd5a-031ea9959c88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_rect
+		(start -1.825 -0.83757)
+		(end -1.45 0.78743)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "08dd6f39-0750-4c8e-848a-9eae8b87e71e")
+	)
+	(fp_rect
+		(start -1.825 -0.83757)
+		(end -0.2 -0.46257)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "eae23ac3-1178-4118-b6b2-0b5e82c31e45")
+	)
+	(fp_rect
+		(start -1.2 -0.83744)
+		(end -0.825 0.03756)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "7474d0fc-d412-424c-8a6f-bc73235870cf")
+	)
+	(fp_rect
+		(start -1.2 0.18743)
+		(end -0.825 0.78743)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "6eedd064-e6e1-4557-b9b7-406d5029f8a3")
+	)
+	(fp_rect
+		(start -0.575 -0.83756)
+		(end -0.2 0.78743)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "40414711-d3e5-460b-a2ff-6844cf089a6d")
+	)
+	(fp_rect
+		(start 0.05001 -0.45001)
+		(end 0.425 -0.10001)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "7d8e38eb-3ae0-40d3-89cb-79a4cac90430")
+	)
+	(fp_rect
+		(start 0.05001 0.05)
+		(end 0.425 0.4)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "c913fcf2-b177-4259-9127-8bfe12656384")
+	)
+	(fp_rect
+		(start 0.425 0.41244)
+		(end 1.3 0.78743)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "57891d99-74ab-4d45-96f6-12d7cdeac331")
+	)
+	(fp_rect
+		(start 0.4375 -0.83757)
+		(end 1.2875 -0.46257)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "7eb8b10c-fd8d-4b3d-88b3-35d26a2a57dd")
+	)
+	(fp_rect
+		(start 1.3 -0.45001)
+		(end 1.675 -0.26251)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "53fcca5e-f7da-4311-ae64-24418b91e273")
+	)
+	(fp_rect
+		(start 1.30001 0.2125)
+		(end 1.675 0.4)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "5dbce3cc-53f0-400a-ae1e-38cda9099a5a")
+	)
+	(fp_arc
+		(start 0.2375 -0.45007)
+		(mid 0.296079 -0.591491)
+		(end 0.4375 -0.65007)
+		(stroke
+			(width 0.375)
+			(type solid)
+		)
+		(layer "F.Cu")
+		(uuid "5a8aaa3f-8ecb-41ce-bbe2-2355173c6923")
+	)
+	(fp_arc
+		(start 0.4375 0.59993)
+		(mid 0.296079 0.541351)
+		(end 0.2375 0.39993)
+		(stroke
+			(width 0.375)
+			(type solid)
+		)
+		(layer "F.Cu")
+		(uuid "2d5f84c4-a014-4fc4-82c6-852baac8ac73")
+	)
+	(fp_arc
+		(start 1.2875 -0.65007)
+		(mid 1.428921 -0.591491)
+		(end 1.4875 -0.45007)
+		(stroke
+			(width 0.375)
+			(type solid)
+		)
+		(layer "F.Cu")
+		(uuid "e467501e-e87e-4308-886e-ef7f0428f388")
+	)
+	(fp_arc
+		(start 1.4875 0.39993)
+		(mid 1.428921 0.541351)
+		(end 1.2875 0.59993)
+		(stroke
+			(width 0.375)
+			(type solid)
+		)
+		(layer "F.Cu")
+		(uuid "1b24c029-cd7e-4bb1-8c13-d67008085aec")
+	)
+)

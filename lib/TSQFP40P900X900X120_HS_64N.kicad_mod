@@ -16,7 +16,7 @@
 			(justify left bottom)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "Val**"
 		(at 1 -0.3 180)
 		(layer "F.Fab")
 		(uuid "e4ecf454-0846-45ee-8b12-be62a24721bc")
@@ -672,8 +672,18 @@
 	(pad "C" smd rect
 		(at 0 0)
 		(size 5.8 5.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_paste_margin -10)
+		(layers "F.Cu" "F.Mask")
 		(uuid "c46e40ee-ea89-473c-b1b5-4848ea920d2d")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_QFP.3dshapes/TQFP-64_7x7mm_P0.4mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )
