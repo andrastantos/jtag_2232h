@@ -174,116 +174,51 @@
 		(layer "F.SilkS")
 		(uuid "2f439b5e-67ef-4673-840e-5e0f2e4e1381")
 	)
-	(fp_line
+	(fp_rect
 		(start -5.15 -5.15)
-		(end -5.15 5.15)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Eco1.User")
-		(uuid "99b22d9b-dae9-414a-aeda-29db6cf9c285")
-	)
-	(fp_line
-		(start 0 -0.5)
-		(end 0 0.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Eco1.User")
-		(uuid "e67ee2f8-ad6d-4b44-8473-7f6f9adb6f17")
-	)
-	(fp_line
-		(start 0.5 0)
-		(end -0.5 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Eco1.User")
-		(uuid "7702ff71-e136-4b5f-b561-c4ccc677c9c6")
-	)
-	(fp_line
-		(start 5.15 -5.15)
-		(end -5.15 -5.15)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Eco1.User")
-		(uuid "2f844275-bc7b-4414-a5dc-e3aa9390fab4")
-	)
-	(fp_line
-		(start 5.15 -5.15)
 		(end 5.15 5.15)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
-		(layer "Eco1.User")
-		(uuid "25ec082e-9c99-4f64-8ded-c19693d0e818")
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "54e6ea10-ffde-4ea6-9de7-d57786247bc1")
 	)
-	(fp_line
-		(start 5.15 5.15)
-		(end -5.15 5.15)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Eco1.User")
-		(uuid "8791a2a9-f831-4939-a15a-3d7d85649d1e")
-	)
-	(fp_line
+	(fp_rect
 		(start -3.5 -3.5)
-		(end -3.5 3.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "B.Fab")
-		(uuid "bc664608-bc3f-4ee6-9074-e5499a233738")
-	)
-	(fp_line
-		(start 3.5 -3.5)
-		(end -3.5 -3.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "B.Fab")
-		(uuid "e2146a07-76da-4cb9-b9b7-088c85bad6d1")
-	)
-	(fp_line
-		(start 3.5 -3.5)
 		(end 3.5 3.5)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "B.Fab")
-		(uuid "0f2ff93f-7f4c-4c4f-98ce-f11581f79172")
-	)
-	(fp_line
-		(start 3.5 3.5)
-		(end -3.5 3.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "B.Fab")
-		(uuid "10bc873a-f2dd-4577-b861-d00b1b2e8da4")
+		(fill none)
+		(layer "F.Fab")
+		(uuid "e5e5aa3d-9e74-4935-836d-bec0f611173a")
 	)
 	(fp_circle
 		(center -2.55 -2.55)
-		(end -2.55 -2.05)
+		(end -2.05 -2.55)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill none)
-		(layer "B.Fab")
+		(layer "F.Fab")
 		(uuid "8fe320cc-9981-4622-af66-1318f57f2b17")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -5.2 5.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4970e043-37eb-4269-8172-0eccce156901")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(pad "1" smd oval
 		(at -4.075 -3 90)
